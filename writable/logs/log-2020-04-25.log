@@ -1,0 +1,75 @@
+CRITICAL - 2020-04-25 05:14:04 --> Undefined index: country
+#0 /home/vagrant/code/SistemaWeb/mofuss-laravel/app/Views/layouts/hagg.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/vagrant/c...', 17, Array)
+#1 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/View/View.php(236): include('/home/vagrant/c...')
+#2 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/Common.php(176): CodeIgniter\View\View->render('layouts/hagg', Array, NULL)
+#3 /home/vagrant/code/SistemaWeb/mofuss-laravel/app/Controllers/Dashboard.php(115): view('layouts/hagg')
+#4 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Dashboard->country('ZM')
+#5 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vagrant/code/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-25 05:14:45 --> Undefined index: country
+#0 /home/vagrant/code/SistemaWeb/mofuss-laravel/app/Views/layouts/hagg.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/vagrant/c...', 17, Array)
+#1 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/View/View.php(236): include('/home/vagrant/c...')
+#2 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/Common.php(176): CodeIgniter\View\View->render('layouts/hagg', Array, NULL)
+#3 /home/vagrant/code/SistemaWeb/mofuss-laravel/app/Controllers/Dashboard.php(115): view('layouts/hagg')
+#4 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Dashboard->country('ZM')
+#5 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vagrant/code/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-25 05:15:03 --> Undefined index: country
+#0 /home/vagrant/code/SistemaWeb/mofuss-laravel/app/Views/layouts/hagg.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/vagrant/c...', 17, Array)
+#1 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/View/View.php(236): include('/home/vagrant/c...')
+#2 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/Common.php(176): CodeIgniter\View\View->render('layouts/hagg', Array, NULL)
+#3 /home/vagrant/code/SistemaWeb/mofuss-laravel/app/Controllers/Dashboard.php(115): view('layouts/hagg')
+#4 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Dashboard->country('ZM')
+#5 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vagrant/code/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-25 05:22:16 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('select')
+#1 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(725): CodeIgniter\Router\Router->handle('select')
+#2 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vagrant/code/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-25 08:30:31 --> syntax error, unexpected '.'
+#0 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('select')
+#1 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(725): CodeIgniter\Router\Router->handle('select')
+#2 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vagrant/code/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-25 08:30:38 --> syntax error, unexpected '.'
+#0 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('select')
+#1 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(725): CodeIgniter\Router\Router->handle('select')
+#2 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vagrant/code/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vagrant/code/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-25 20:32:57 --> fopen(/var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/public/maps/geojson/coords.geojson): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/var/www/...', '/var/www/html/m...', 32, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Controllers/Select.php(32): fopen('/var/www/html/m...', 'w')
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Select->generatekml()
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Select))
+#4 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-25 20:33:20 --> fopen(/var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/public/maps/geojson/coords.geojson): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/var/www/...', '/var/www/html/m...', 32, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Controllers/Select.php(32): fopen('/var/www/html/m...', 'w')
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Select->generatekml()
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Select))
+#4 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-25 20:33:33 --> fopen(/var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/public/maps/geojson/coords.geojson): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/var/www/...', '/var/www/html/m...', 32, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Controllers/Select.php(32): fopen('/var/www/html/m...', 'w')
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Select->generatekml()
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Select))
+#4 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

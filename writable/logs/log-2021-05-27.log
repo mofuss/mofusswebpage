@@ -1,0 +1,14 @@
+CRITICAL - 2021-05-27 10:38:05 --> Undefined index: name
+#0 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Controllers/Select.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 14, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Select->index()
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Select))
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 12:56:15 --> Undefined index: name
+#0 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Controllers/Dashdefault.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 167, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Dashdefault->croparea()
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashdefault))
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

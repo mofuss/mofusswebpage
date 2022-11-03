@@ -1,0 +1,10 @@
+CRITICAL - 2020-07-28 19:25:18 --> Undefined variable: totalTime
+#0 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/Debug/Toolbar/Views/toolbar.tpl.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/m...', 55, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/Debug/Toolbar.php(496): include('/var/www/html/m...')
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/Debug/Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Config/Events.php(41): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/Events/Events.php(188): call_user_func(Object(Closure))
+#6 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(227): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

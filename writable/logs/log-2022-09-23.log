@@ -1,0 +1,7 @@
+CRITICAL - 2022-09-23 23:39:44 --> Undefined index: coords
+#0 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/app/Controllers/Dashdefault.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/m...', 243, Array)
+#1 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(847): App\Controllers\Dashdefault->generategeojson()
+#2 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(338): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashdefault))
+#3 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/system/CodeIgniter.php(246): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/mofuss/WebBasedMofuss/SistemaWeb/mofuss-laravel/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

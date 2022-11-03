@@ -1,0 +1,12 @@
+.readMore{
+	/*height: 0px !important;
+	transition: all ease 2s;
+	overflow: hidden;*/
+	display: none;
+}
+
+.readLess{
+	display: block;
+	position: relative;
+}
+
